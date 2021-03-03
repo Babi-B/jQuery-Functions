@@ -1,0 +1,1 @@
+An illistration of the use of some jQuery functions and function chaining
