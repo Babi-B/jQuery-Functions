@@ -1,0 +1,45 @@
+
+nav{
+    background-color: rgb(133, 133, 231);
+    color: white;
+
+}
+nav ul{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgba(0, 0, 128, 0.5);
+}
+button{
+    outline: none;
+    background-color: navy;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+    height: 35px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(133, 133, 231);
+}
+button:visited{
+    background-color: blueviolet;
+}
+.picture {
+    height: 300px;
+    width: 400px;
+}
