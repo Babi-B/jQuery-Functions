@@ -1,8 +1,50 @@
+/* -----------------------------------------DEFAULT--------------------------------------------- */
+
+h1{
+    color: #413c69;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 1px;
+    border: 5px groove whitesmoke;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: -1px -1px 1px #000;
+}
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4a47a3
+}
+
+h3{
+    color: #4a47a3;
+    margin: 15px auto 25px;
+    font-style: italic;
+}
+button{
+    outline: none;
+    background-color: #413c69;
+    color: white;
+    font-weight: bolder;
+    border-radius: 25px;
+    height: 35px;
+    margin: 30px auto 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #709fb0;
+}
+/* -----------------------X-----------------DEFAULT---------------------------X----------------- */
+
+/* ------------------------------------------nav bar--------------------------------------------- */
 
 nav{
-    background-color: rgb(133, 133, 231);
-    color: white;
-
+    background-image: linear-gradient(to top right,#f67280,#c06c84,#6c5b7b,#355c7d);
+    padding: 40px;
+    margin-bottom: 15px;
 }
 nav ul{
     align-items: center;
@@ -11,35 +53,39 @@ nav ul{
     justify-content: space-around;
     font-size: x-large;
     font-weight: bolder;
+    margin: 0;
+    padding: 0;
 }
 
-li{
-    list-style-type: none;
+nav ul li a{
+    color: white;
+    margin: 0;
+    padding: 40px;
+
 }
 
-a{
-    text-decoration: none;
-    color: white;
+nav ul li a:hover{
+    background-color: #7a4579;
 }
-a:hover{
-    color: rgba(0, 0, 128, 0.5);
+
+
+/* -----------------------------X------------nav bar------------------------X-------------------- */
+
+
+/* -----------------------------------------MAIN-------------------------------------------- */
+
+#functions{
+    margin-bottom: 10px;
 }
-button{
-    outline: none;
-    background-color: navy;
-    color: white;
-    font-weight: bolder;
-    border-radius: 25px;
-    height: 35px;
+div{
+    margin: 5px;
+    border: 2px groove wheat;
+    justify-content: center;
 }
-button:hover{
-    cursor: pointer;
-    background-color: rgb(133, 133, 231);
-}
-button:visited{
-    background-color: blueviolet;
-}
-.picture {
-    height: 300px;
-    width: 400px;
-}
+
+/* ----------------------------X------------MAIN---------------------------X---------------- */
+
+
+
+
+
