@@ -1,6 +1,14 @@
 $(document).ready(function(){
-    $("#p").click(function(){
-        $("this").text("Miranda");
+    //toggle() function
+    $("button#toggler").click(function(){
+        $('#toggle').toggle()
       });
+      
+     // toggleClass() Function
+    $("button#classToggler").click(function(){
+        $('.toggleClass').toggleClass("colorChange");
+      });
+
+     
 })
 

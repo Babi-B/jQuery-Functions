@@ -1,5 +1,10 @@
 /* -----------------------------------------DEFAULT--------------------------------------------- */
 
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 h1{
     color: #413c69;
     font-family: 'Times New Roman', Times, serif;
@@ -81,6 +86,22 @@ div{
     margin: 5px;
     border: 2px groove wheat;
     justify-content: center;
+}
+.toggleClass, #toggle{
+    background-image: linear-gradient(to left bottom,#f67280,#c06c84,#6c5b7b,#355c7d);
+    width: 90%; 
+    height: 60px;
+}
+
+.colorChange{
+    background-image: linear-gradient(to right bottom,#f67280,#c06c84,#6c5b7b,#355c7d);
+}
+.red{
+    background-color: red;
+}.yellow{
+    background-color: yellow;
+}.blue{
+    background-color: blue;
 }
 
 /* ----------------------------X------------MAIN---------------------------X---------------- */
