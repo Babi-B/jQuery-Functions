@@ -18,26 +18,49 @@
     <main>
         <section id="functions"><h1>Functions</h1>
             <div>
-                <h3>The toggle() Funciton</h3>
-                <h4>The toggle() method toggles between hide() and show() for the selected elements.</h4>
+                <h3>The <i> toggle() </i>Funciton</h3>
+                <h4>The toggle() method toggles between <u> hide()</u> and <u> show()</u> for the selected elements.</h4>
                 <div id="toggle"></div>
                 <p>This method <b>checks the selected elements for visibility.</b>
                 <br><b>show()</b> is run if an element is hidden.<br>
                 <b>hide()</b> is run if an element is visible --- This creates a <i>toggle</i> effect. Check out the <a href="#toggleClassID"> toggleClass() function</a></p>
-                <button id="toggler" >Toggle color</button>
+                <button id="toggler" >Hide/Show</button>
             </div>
-            <div>
-                <h3>The toggleClass() Function</h3>
+            <div id="toggleClassID">
+                <h3 >The<i> toggleClass() </i> Function</h3>
                 <h4>Toggles between adding and removing aclass name from an element</h4>
-                <div class="toggleClass" id="toggleClassID"></div>
+                <div class="toggleClass"></div>
                 <p>  *******This DEMO alternates between two classes of different linear gradient direction</p>
-                <button id="classToggler" >Toggle gradient</button>
+                <button id="classToggler" >Toggle gradient direction</button>
             </div>
             <div>
-                <h3>The toggle Function</h3>
+                <h3>The <i>fadeToggle()</i>  Function</h3>
+                <h4>The fadeToggle() method toggles between the <u> fadeIn()</u> and <u> fadeOut()</u> methods.</h4>
+                <ul id="fadingList">
+                    <li id="fadeToggle1">fadeToggle()</li>
+                    <li id="fadeToggle2">fadeToggle('slow')</li>
+                    <li id="fadeToggle3">fadeToggle(3000)</li>
+                </ul>
+                <p>If the elements are faded out, fadeToggle() will fade them in.
+                    <br>If the elements are faded in, fadeToggle() will fade them out. <br>
+                    <br><b>NOTE!!!</b> Hidden elements will not be displayed at all (no longer affects the layout of the page).
+                </p>
+                <button id="fader">Fade in/ Fade out</button>
             </div>
             <div>
-                <h3>The toggle Function</h3>
+                <h3>The <i>slideToggle()</i> Function</h3>
+                <h4>The jQuery <u> slideToggle()</u> method toggles between the <u> slideDown()</u> and slideUp() methods</h4>
+                <div id="slidingList">
+                    <div id="slideToggle1">Click this to slide up/down instantly</div>
+                    <div id="panel1"> slideToggle()</div>
+                    <div id="slideToggle2">Click this to slide up/down slowly</div>
+                    <div id="panel2"> slideToggle('slow')</div>
+                    <div id="slideToggle3">Click this to slide up/down after 3secs</div>
+                    <div id="panel3"> slideToggle(3000)</div>
+                </div>
+                <p>If the elements have been slid down, slideToggle() will slide them up.
+                    <br>If the elements have been slid up, slideToggle() will slide them down.
+                    </p>
             </div>
             <div>
                 <h3>The toggle Function</h3>
