@@ -26,5 +26,21 @@ $(document).ready(function(){
     $('#slideToggle3').click(function(){
         $('#panel3').slideToggle(3000)
     })
+
+    // text() Function
+    $('#addText').click(function(){
+        $("#text").text('The text() method sets or returns the text content of the selected elements.When this method is used to return content, it returns the text content of all matched elements (HTML markup will be removed).When this method is used to set content, it overwrites the content of ALL matched elements.')
+        $('#htmlLink').text('Check out the html() function')
+    })
+
+    // html() Function
+    $('#addTag').click(function(){
+        $('#htmlTag').html('<p>The html() method sets or returns the content (innerHTML) of the selected elements.<br> When this method is used to return content, it returns the content of the FIRST matched element.<br>When this method is used to set content, it overwrites the content of ALL matched elements.</p>')
+    })
+
+    //appendTo() Function
+    $('#append').click(function(){
+        $('<p>The <b>appendTo()</b> is an <b>inbuilt method in jQuery </b>that is used to insert HTML element at the end of the selected element. Here the element content specifies the content to be inserted. Parameters: It accepts a parameters “selector” which specifies the elements to which content will be appended.</p>').appendTo('#appendInfo')
+    })
 })
 
