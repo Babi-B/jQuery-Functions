@@ -155,7 +155,7 @@ div{
 
 /* -------text() function --------*/
 
-#text,#appendTo{
+#text,#appendTo,#prependTo{
     border: 3px dashed rgb(231, 149, 231) ;
 }
 
