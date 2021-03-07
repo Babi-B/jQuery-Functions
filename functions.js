@@ -40,12 +40,22 @@ $(document).ready(function(){
 
     //appendTo() Function
     $('#append').click(function(){
-        $('<p>The <b>appendTo()</b> is an <b>inbuilt method in jQuery </b>that is used to insert HTML element at the end of the selected element. Here the element content specifies the content to be inserted. Parameters: It accepts a parameters “selector” which specifies the elements to which content will be appended.</p>').appendTo('#appendInfo')
+        $('<p>The <b>appendTo()</b> is an <b>inbuilt method in jQuery </b>that is used to insert HTML element at the end of the selected element. <br>Here the element content specifies the content to be inserted. <br><b>Parameters:</b> arameters:It accepts a parameters “selector” which specifies the elements to which content will be appended.</p>').appendTo('#appendInfo')
     })
 
     //prependTo() Function
     $('#prepend').click(function(){
         $('<p>The <b>prependTo()</b> method is an <b>inbuilt method in jQuery</b> which is used to insert HTML elements or some content at the beginning of the selected element.<br><b>Parameters:</b> This function accepts two parameters as mentioned above and described below: <br>&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;<b>content: </b>It is required parameter and used to specify the content to be inserted.<br>&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;<b> selector:</b> It is required parameter and used to specify the elements to prepend the content.</p>').prependTo('#prependInfo')
+    })
+
+    //  FUNCTION CHAINING
+
+    //Chain1 ----> addClass(), slideDown(), html(), css(), before() and slideUp()
+    $('#trigger1').click(function(){
+        $('.chain1').addClass('chainWork1').slideUp(2000).slideDown(4000).html('<h2>HELLO WORLD!</h2>')
+        .css('color','white').css('text-align','center')
+        .before("<p style='color: violet;'><b>Chain #1: addClass(), slideDown(), html(), css(), before() and slideUp()</b></p>")
+        .slideUp(4000).slideDown(3000).text('Peekaboo!').slideUp(3000).wait(1000).after("<p>Done!</p>")
     })
 })
 
